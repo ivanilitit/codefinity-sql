@@ -1,3 +1,3 @@
-SELECT AVG(surfacearea)
+SELECT COUNT(*) 
 FROM country
-WHERE surfacearea > 300000;
+WHERE continent='Asia' OR continent='Europe';
