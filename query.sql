@@ -1,4 +1,3 @@
-SELECT name, region, capital, population
+SELECT name 
 FROM country 
-WHERE continent = 'Europe' AND population >=100000 
-ORDER BY region, capital ASC;
+WHERE region = 'Central America' OR region = 'South America'
