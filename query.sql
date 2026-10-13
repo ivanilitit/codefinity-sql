@@ -1,4 +1,3 @@
-SELECT name, capital, continent
+SELECT AVG(surfacearea) 
 FROM country 
-WHERE NOT continent = 'Europe'
-ORDER BY capital ASC;
+WHERE surfacearea>=1000000;
